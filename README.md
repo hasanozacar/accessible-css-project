@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Erişilebilir Uygulama
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, React kullanarak ileri düzey CSS teknikleri ve web erişilebilirlik özellikleri içeren bir form ve modal uygulaması sunar. Proje, özellikle WCAG 2.1 uyumluluğuna dikkat ederek klavye ve ekran okuyucu kullanıcıları için optimize edilmiştir. Ayrıca, CSS değişkenleri, Flexbox ve Grid gibi modern CSS özellikleri de uygulanmıştır.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- **Modern CSS Teknikleri**: CSS değişkenleri, Flexbox, Grid ve animasyonlar kullanılmıştır.
+- **Erişilebilirlik Uyumluluğu**: WCAG 2.1 standartlarına uygunluk sağlanarak klavye ve ekran okuyucu kullanıcıları için optimize edilmiştir.
+- **Modüler Yapı**: Bileşen tabanlı yapı, bağımsız olarak yeniden kullanılabilir bileşenler içerir.
+- **Sass İle Tema Yönetimi**: Sass değişkenleri kullanılarak tema yönetimi sağlanmıştır.
+- **Performans ve Uyum Odaklı**: Hem tema yönetimi hem de modern CSS teknikleri ile hızlı ve uyumlu bir kullanıcı deneyimi sunar.
 
-### `npm start`
+## Proje Özeti
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Bu projede şu temel özellikler bulunmaktadır:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **React Bileşenleri**: Modüler ve yeniden kullanılabilir bileşen yapısı.
+2. **İleri Düzey CSS Teknikleri**: Flexbox, Grid, CSS değişkenleri ve animasyonlar kullanılarak geliştirilmiş bir yapı.
+3. **Web Erişilebilirlik Uyumlu**: WCAG 2.1 standartlarıyla uyumlu erişilebilirlik özellikleri.
+4. **Sass İle Tema Yönetimi**: Tema yönetiminde Sass değişkenleri ve mixin'ler ile özelleştirme.
+5. **Responsive Tasarım**: Tüm cihazlar için optimize edilmiş ve ekran okuyucu dostu yapıya sahip tasarım.
 
-### `npm test`
+## Kurulum
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
-### `npm run build`
+1. **Projeyi klonlayın**:
+    ```bash
+    git clone https://github.com/kullaniciadi/proje-adi.git
+    cd proje-adi
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Gerekli bağımlılıkları yükleyin**:
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Projeyi başlatın**:
+    ```bash
+    npm start
+    ```
+    Bu komut, projeyi geliştirme modunda çalıştırır. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresine giderek uygulamayı görüntüleyebilirsiniz.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+...
 
-### `npm run eject`
+## Lisans
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
